@@ -7,7 +7,7 @@ window.onload = function() {
     clickIt.addEventListener("click", function(){
     
       //Identify the text to be hidden
-      var textToShow = document.getElementsByClassName("show_me");
+      var textToShow = document.getElementsByClassName("show_me"); 
     
       for (var i = 0; i < textToShow.length; i++) {
           textToShow[i].style.display = "block";
