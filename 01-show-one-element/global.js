@@ -6,12 +6,17 @@ window.addEventListener("load", function(){
 
   // 2. Add a listener for the 'click' event onto that element.
 
-  // 3. The block for the listener should get the DOM
-  //    element containing the text to reveal.
+  clickIt.addEventListener("click", function(){
 
-  // 4. Modify that DOM element's style to change it's 'display'
-  //    from a hidden value to a shown value.
+    // 3. The block for the listener should get the DOM
+    //    element containing the text to reveal.
+    
+    var textToShow = document.getElementById("more_text_content");
 
-  // 5. Also modify the DOM to hide the "More info..." link.
-  
-});
+    // 4. Modify that DOM element's style to change it's 'display'
+    //    from a hidden value to a shown value.  
+    textToShow.style.display = "inline"
+
+    // 5. Also modify the DOM to hide the "More info..." link.
+    clickIt.style.display = "none"
+  });
