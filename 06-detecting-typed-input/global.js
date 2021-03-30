@@ -8,3 +8,6 @@ window.onload = function(){
   
       greetings.innerHTML = ("Greetings and salutations, " + enterYourName.value + "!");
     });
+
+
+  };
